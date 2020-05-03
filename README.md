@@ -1,5 +1,5 @@
 # WKBL 알리미 Telegram Chatbot 
-> 15분 tutorial - Github repository 관리
+> WKBL 알리미 Telegram Chatbot 
 
 [![author-ohahohah](https://img.shields.io/badge/author-ohahohah-blue.svg)](https://github.com/ohahohah/)
 [![15min-tutorial-github](https://img.shields.io/badge/15min--tutorial-github-red.svg)](https://github.com/topics/15min-tutorial)
