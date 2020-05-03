@@ -40,6 +40,7 @@
   - Git README 템플릿 : https://github.com/ohahohah/readme-template
   
 ## License
-ohahohah – [ohahohah.dev@gmail.com](mailto:ohahohah.dev+gh@gmail.com)  
+ohahohah – [ohahohah.dev@gmail.com](mailto:ohahohah.dev+gh@gmail.com)
+Jososo - [atccsy89@gmail.com](mailto:atcsy89@gmail.com)  
 
 MIT license를 준수합니다. [LICENSE](LICENSE)에서 자세한 정보를 확인할 수 있습니다.  
