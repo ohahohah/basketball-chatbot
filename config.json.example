@@ -1,3 +1,4 @@
 {
-    "TELEGRAM_TOKEN":""
+    "TELEGRAM_TOKEN":"",
+    "TEST_ID": ""
 }
