@@ -2,9 +2,9 @@
 > WKBL 알리미 Telegram Chatbot 
 
 [![author-ohahohah](https://img.shields.io/badge/author-ohahohah-blue.svg)](https://github.com/ohahohah/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ohahohah/readme-template/graphs/commit-activity) 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ohahohah/basketball-chatbot/graphs/commit-activity) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)  
-***유용하게 쓰셨다면 상단 star [![GitHub stars](https://img.shields.io/github/stars/ohahohah/github-tutorial.svg?style=social)](https://github.com/ohahohah/github-tutorial) 를 눌러주세요!***
+***유용하게 쓰셨다면 상단 star [![GitHub stars](https://img.shields.io/github/stars/ohahohah/github-tutorial.svg?style=social)](https://github.com/ohahohah/basketball-chatbot) 를 눌러주세요!***
 
 
   
@@ -40,7 +40,7 @@
   - Git README 템플릿 : https://github.com/ohahohah/readme-template
   
 ## License
-ohahohah – [ohahohah.dev@gmail.com](mailto:ohahohah.dev+gh@gmail.com)
+ohahohah – [ohahohah.dev@gmail.com](mailto:ohahohah.dev+gh@gmail.com)  
 Jososo - [atccsy89@gmail.com](mailto:atcsy89@gmail.com)  
 
 MIT license를 준수합니다. [LICENSE](LICENSE)에서 자세한 정보를 확인할 수 있습니다.  
