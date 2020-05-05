@@ -1,3 +1,9 @@
+
+# .floobits ignore
+.floo
+.flooignore
+
+# project configuration
 config.json
 
 # Created by https://www.gitignore.io/api/flask,venv,visualstudiocode,jetbrains+all
