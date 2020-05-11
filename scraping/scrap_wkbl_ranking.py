@@ -13,12 +13,12 @@ html = req.text
 soup = BeautifulSoup(html, 'html.parser')
 
 # data = []
-ranking_total = soup.find('#regularTeamRecordList_table')
-ranking_total = soup.find_one('#regularTeamRecordList_table')
+# ranking_total = soup.find('#regularTeamRecordList_table')
+# ranking_total = soup.find_one('#regularTeamRecordList_table')
 
 # 테이블 가져오기
 ranking_total = soup.select('#regularTeamRecordList_table')
-# print(ranking_total)
+print(ranking_total)
 
 
 # # The main comparison table is currently the first table on the page
@@ -29,8 +29,8 @@ ranking_total = soup.select('#regularTeamRecordList_table')
 # writer = csv.writer(csvFile)
 
 # 테이블 정보를 텍스트로 가져오기
-for ranking in ranking_total:
-    print(ranking.text)
+# for ranking in ranking_total:
+#     print(ranking.text)
 
 # rows = ranking_total.get('tr')
 #
