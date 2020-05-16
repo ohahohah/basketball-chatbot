@@ -29,17 +29,18 @@ for row in rows_find:
 
 #### Using select
 row_select = soup.select('#regularTeamRecordList_table > tr')
-# print(row_select)
 
 result_select = {}
 
 for row in row_select:
     rank = row.select_one('th > strong').getText()
     # print(rank)
-    team = row.select_one('span').getText()
+    # team2 = row.select_one('span').getText() # team = team2
+    team = row.select_one('td[class="tm"] > div > span').getText()
     # print(team)
     # print('-------')
 
-    result_select[rank] = team
+    result_select[team] = rank
+    # result_select[rank] = team
 
 # print(result_select)
