@@ -23,12 +23,11 @@ class TelegramBot:
         self.updater.stop()
 
 
-class Botwkbl_test(TelegramBot):
+class Botwkbl(TelegramBot):
     def __init__(self):
         secret_key = config['TELEGRAM_TOKEN']  # Telegram Token 값을 scret_key라는 변수에 담는다
-
         self.token = secret_key
-        TelegramBot.__init__(self, 'wkbltest', self.token)
+        TelegramBot.__init__(self, 'wkbl', self.token)
         self.updater.stop()
 
     def add_handler(self, cmd, func):
