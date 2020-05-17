@@ -34,6 +34,7 @@ class Botwkbl(TelegramBot):
         self.updater.dispatcher.add_handler(CommandHandler(cmd, func))
 
     def start(self):
-        self.sendMessage('안녕하세요. 순위를 알고 싶으시면 "/ranking" 을 입력하세요')
+        self.sendMessage('안녕하세요. 무엇을 알고 싶으세요?'
+                         '\n/ranking \n/winningrate \n/win \n/loose \n/gap \n/score \n/stop')
         self.updater.start_polling()
         self.updater.idle()
