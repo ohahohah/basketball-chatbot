@@ -44,7 +44,7 @@ print(ranking_total)
 #     print(data)
 #
 # #json 으로 저장
-# with open(os.path.join(BASE_DIR, 'ranking.json'), 'w+', encoding='utf-8') as json_file: # 인코딩 설정
+# with open(os.path.join(BASE_DIR, 'record.json'), 'w+', encoding='utf-8') as json_file: # 인코딩 설정
 #     json.dump(data, json_file, ensure_ascii=False)
 
 

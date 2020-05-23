@@ -1,9 +1,8 @@
 import telegram
-import sys
-import chatbotmodel
+from wkblbot.practice_chatbot import chatbotmodel
 import json
 
-with open('config.json', 'r') as f:
+with open('../../config.json', 'r') as f:
     config = json.load(f)  # config.json 이라는 파일의 내용을 가져온다.
 
 secret_key = config['TELEGRAM_TOKEN']  # Telegram Token 값을 scret_key라는 변수에 담는다
@@ -15,13 +14,13 @@ updates = wkblchatbot.getUpdates()
 for u in updates:
     print(u.message)
 
-with open('ranking.json', 'r', encoding='UTF-8') as s:
-    record = json.load(s)  # ranking.json 이라는 파일의 내용을 가져온다.
+with open('../../record.json', 'r', encoding='UTF-8') as s:
+    record = json.load(s)  # record.json 이라는 파일의 내용을 가져온다.
 
 
 def proc_ranking(bot, update):
-    # with open('ranking.json', 'r', encoding='UTF-8') as s:
-    #     record = json.load(s)  # ranking.json 이라는 파일의 내용을 가져온다.
+    # with open('record.json', 'r', encoding='UTF-8') as s:
+    #     record = json.load(s)  # record.json 이라는 파일의 내용을 가져온다.
     print(record[0])
     # for key, value in ranking.items():
     #     # print(key, '위 ', value)
@@ -46,6 +45,7 @@ def proc_loose(bot, update):
 
 def proc_gap(bot, update):
     msg = str(record[5])
+    record['woori']['ranking']
     wkbl.sendMessage(msg)
 
 

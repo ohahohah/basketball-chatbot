@@ -2,7 +2,7 @@ import telegram
 from telegram.ext import Updater, CommandHandler
 import json
 
-with open('config.json', 'r') as f:
+with open('../../config.json', 'r') as f:
     config = json.load(f)  # config.json 이라는 파일의 내용을 가져온다.
 
 
