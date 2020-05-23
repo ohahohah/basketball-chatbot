@@ -82,7 +82,7 @@ record = [ranking_list, gamenumber_list, winningrate_list, win_list, loose_list,
           rebound_list, steal_list, block_list, point_list, freethrow_list]
 
 # json 으로 저장
-with open(os.path.join(BASE_DIR, 'ranking.json'), 'w+', encoding='utf-8') as json_file:  # 인코딩 설정
+with open(os.path.join(BASE_DIR, 'record.json'), 'w+', encoding='utf-8') as json_file:  # 인코딩 설정
     json.dump(record, json_file, ensure_ascii=False)
 
 # json 안에 들어가는 dict에 이름을 줄 수 있을까?
