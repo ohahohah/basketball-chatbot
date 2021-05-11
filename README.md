@@ -1,6 +1,6 @@
 # WKBL 알리미 Telegram Chatbot 
 > 한국 여자프로농구 WKBL 순위 정보 알리미 Telegram Chatbot   
-[챗봇 접속](t.me/wkblbot)
+[챗봇 접속](https://t.me/wkblbot)
    
 ***유용하게 쓰셨다면 상단 star [![GitHub stars](https://img.shields.io/github/stars/ohahohah/github-tutorial.svg?style=social)](https://github.com/ohahohah/basketball-chatbot) 를 눌러주세요!***
   
